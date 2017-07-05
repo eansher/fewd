@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway:400,600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+body {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	color: #44545E;
+	font-weight: 600;
+	font-size: 15px;
+	margin: 10px 0px;
+	-webkit-font-smoothing: antialiased;
+}
+
+header {
+	margin-top: -210px;
+	margin-bottom: 200px;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #44545E;
+	text-transform: uppercase;
+}
+
+nav a {
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #7B98AA;
+	padding: 60px;
+}
+
+h1 a {
+	font-size: 37px;
+	color: #FFFFFF;
+}
+
+article {
+	text-align: left;
+	margin: 100px 80px;
+	width: 70%;
+}
+
+h1 {
+	padding-bottom: 20px;
+
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 23px;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	text-transform: none;
+}
+
+aside {
+	margin: 100px 80px;
+	width: 30%;
+}
+
+aside h3 {
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+aside a {
+	font-weight: 400;
+	text-transform: none;
+	line-height: 200%;
+	color: #7B98AA;
+}
+
+aside ul {
+	margin-left: -20px;
+}
+
+footer {
+	background-color: #CDF3F6;
+	text-align: center;
+	padding: 30px;
+}
+
+footer a {
+	padding: 20px;
+}
+
+footer #copyright a{
+	font-family: 'lato', sans-serif;
+  font-weight: 400;
+  text-transform: none;
+	padding: 10px;
+}
+
+hr {
+	margin: 30px 0px;
+	border: 1px solid black;
+}
+
+div {
+	display: flex;
+	margin: 0px 60px;
+}
+
+form {
+	margin: 50px;
+}
+
+form input {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #44545E;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 12px 75px;
+	border: none;
+}
+
+form button {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	color: #44545E;
+	font-weight: 600;
+	font-size: 15px;
+	background-color: #CDF3F6;
+	border: 2px solid #44545E;
+	margin-left: 40px;
+	text-align: center;
+	padding: 10px 40px;
+}
+
+/* Fix for responsive images */
+img {
+	max-width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
