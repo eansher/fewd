@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lato%7CRaleway:600');
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #44545E;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	line-height: 150%;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+nav a {
+	font-size: 16px;
+	text-decoration: none;
+	color: #7b98aa;
+	margin: 60px;
+}
+
+h1 {
+	padding-top: 250px;
+	font-size: 37px;
+	letter-spacing: 8px;
+}
+
+h2 {
+	font-size: 23px;
+	margin-bottom: 10px;
+	margin-top: 80px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+p {
+	font-family: 'lato', sans-serif;
+	text-transform: none;
+	font-weight: 400;
+	margin: 40px 10px;
+}
+
+
+
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+nav {
+	margin-top: 20px;
+}
+
+.archive section {
+	margin: 120px 0px;
+}
+
+div {
+	display: flex;
+	justify-content: center;
+
+}
+
+aside {
+	background-color: #cdf3f6;
+	padding: 120px ;
+}
+
+aside p {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+article {
+	margin: 10px;
+}
+
+.gallery img {
+	max-width: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gallery div {
+	align-items: center;
+	justify-content: center;
+	width: 600px;
+	margin: 80px 400px;
+
+}
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+header {
+	background-image: url("../images/home_header_bg.jpg");
+	min-height: 600px;
+	background-position: center;
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+button {
+	font-family: 'raleway', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #44545E;
+	background-color: #FFFFFF;
+	border: 2px solid #44545E;
+	padding: 10px 20px;
+}
+
+footer button {
+
+	background-color: #cdf3f6;
+	padding: 10px 30px;
+}
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+
+footer {
+	background-color: #cdf3f6;
+	padding: 40px 0px;
+
+}
+
+footer a {
+	color: #44545E;
+	margin: 20px;
+}
+
+input {
+	border: 0px;
+	text-align: center;
+	font-family: 'raleway', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 12px 80px;
+	margin-right: 30px;
+}
+
+hr {
+	border: 1px solid #44545E;
+	margin: 40px 0px;
+}
